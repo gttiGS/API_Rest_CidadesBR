@@ -1,16 +1,17 @@
-# Cities API
+<h1 align="center">API_Rest_CidadesBR</h1>
+<p align="center">🚀 API contruída para consultar cidades do BR e dados comparativos</p>
 
-## Requirements
+## 🛠 SO e Tecnologias usadas no projeto
 
-* Linux
-* Git
-* Java 8
-* Docker
-* IntelliJ Community
-* Heroku CLI
-* Travis CLI
+- Linux
+- Git
+- Java 8
+- Docker
+- IntelliJ Community
+- Heroku CLI
+- Travis CLI
 
-## DataBase
+## DB
 
 ### Postgres
 
@@ -30,7 +31,6 @@ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city 
 
 ```shell script
 docker exec -it cities-db /bin/bash
-
 psql -U postgres_user_city cities
 ```
 
@@ -122,3 +122,4 @@ wget https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/res
 + https://docs.travis-ci.com/user/deployment-v2/conditional
 
 + [Heroku Deployment](https://docs.travis-ci.com/user/deployment/heroku/)
+
